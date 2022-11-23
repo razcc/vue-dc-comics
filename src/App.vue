@@ -3,6 +3,7 @@
 		<HeaderComp />
 		<ContentComp />
 		<MainMenu />
+		<FooterComp />
 	</div>
 </template>
 
@@ -11,6 +12,8 @@
 import HeaderComp from "./components/HeaderComp.vue";
 import ContentComp from "./components/ContentComp.vue";
 import MainMenu from "./components/MainMenu.vue";
+import FooterComp from "./components/FooterComp.vue";
+
 
 
 
@@ -20,6 +23,7 @@ export default {
 		HeaderComp,
 		ContentComp,
 		MainMenu,
+		FooterComp,
 	},
 };
 </script>
