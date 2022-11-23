@@ -10,7 +10,7 @@ import MenuFooter from "./ComponentsFooter/MenuFooter.vue";
 
 export default {
 	name: "FooterComp",
-	component: {
+	components: {
 		MenuFooter,
 	},
 };

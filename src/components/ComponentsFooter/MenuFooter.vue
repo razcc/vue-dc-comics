@@ -5,6 +5,8 @@
             <!-- Col 1 -->
 			<div>
 				<ul>
+                    <li>DC COMICS</li>
+
 					<li>Characters</li>
                     <li>Comics</li>
                     <li>Movies</li>
@@ -15,7 +17,10 @@
 
 
 				</ul>
+
 				<ul>
+                    <li>SHOP</li>
+
 					<li>Shop DC</li>
                     <li>Shop DC Collectibles</li>
 
@@ -25,6 +30,7 @@
             <!-- COl 2 -->
             <div>
                 <ul>
+                    <li>DC</li>
                     <li>Terms Of Use</li>
                     <li>Privacy policy (New)</li>
                     <li>Ad Choises</li>
@@ -43,6 +49,7 @@
             <!-- Col 3 -->
             <div>
                 <ul>
+                    <li>SITES</li>
                     <li>
                         DC
                     </li>
@@ -74,7 +81,22 @@ export default {
 
 <style scoped lang='scss'>
 #menuFooter {
-	width: 100%;
+	width: 70%;
 	height: 30vh;
+    margin: auto;
+    color: white;
+}
+.container{
+    display: flex;
+    padding: 25px;
+}
+ul{
+    list-style: none;
+    margin: 0 25px 25px;
+}
+ul li:first-child{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 20px;
 }
 </style>
