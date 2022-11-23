@@ -59,11 +59,20 @@ li{
     align-items: center;
     height: 30%;
     text-transform: uppercase;
+    transition: all 2s;
     
 }
 img{
     
     height: 100%;
     margin: 0 10px;
+    transition: all 2s;
+
+}
+
+
+li:hover{
+    transform: scale(1.2); 
+    cursor: pointer;
 }
 </style>
