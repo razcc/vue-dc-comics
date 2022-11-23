@@ -58,6 +58,8 @@ export default {
 #SocialCont {
 	width: 100%;
 	background-color: rgba(48, 48, 48, 1);
+	position: relative;
+	z-index: 1;
 }
 .container {
 	width: 70%;

@@ -26,6 +26,8 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+	background-image: url("../assets/img/footer-bg.jpg");
+
 
 }
 </style>
