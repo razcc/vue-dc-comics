@@ -26,15 +26,11 @@ export default {
 
 ul{
     display: flex;
-
-
-
 }
 li {
 	text-transform: uppercase;
     list-style-type: none;
-    margin: 0 10px;
-   
+    margin: 0 10px;  
 }
 
 </style>
