@@ -14,6 +14,9 @@
 				:dettagliCard="element"
 			/>
 		</div>
+		<div>
+			<button class="loadButton">LOAD GAME</button>
+		</div>
 	</main>
 </template>
 
@@ -216,5 +219,17 @@ main {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: 30px 0 0px 0;
+}
+.loadButton{
+	background-color: rgba(2, 130, 249, 1);
+	padding: 20PX 30PX 20PX 30PX;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	transform: translateY(-50%);
+	border: none;
+	position: relative;
+	transition: all 0.5s;
+	overflow: hidden;
 }
 </style>
