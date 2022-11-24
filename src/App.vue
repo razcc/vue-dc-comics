@@ -39,6 +39,5 @@ export default {
 	background-color: rgba(14, 14, 14, 1);
 	height: 100vh;
 	padding-top: 20px;
-	padding-bottom: 20px;
 }
 </style>

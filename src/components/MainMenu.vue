@@ -40,6 +40,8 @@ export default {
     height: 20vh;
     width: 100%;
     background-color: rgba(2, 130, 249, 1);
+    position: relative;
+    z-index: 1;
 }
 .container{
     width: 60%;

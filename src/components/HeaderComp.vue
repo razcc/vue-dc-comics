@@ -1,6 +1,6 @@
 <template>
 	<div class="contHeader">
-		<div id="container">
+		<div class="container">
 			<LogoComp />
 			<NavComp />
 		</div>
@@ -22,16 +22,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#container {
+.container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: 70%;
 	margin: auto;
 	height: 10vh;
+	
 }
 .contHeader {
-	background-color: white;
-	padding: 10px;
+	background-color: white;	
+	padding: 20px 0px 0px 0px;
 }
+
 </style>
