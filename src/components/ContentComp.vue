@@ -4,7 +4,7 @@
 			<img class="jumboImg" src="../assets/img/jumbotron.jpg" alt="">
 		</div>
 		<div class="seriesButtonCont">
-			<button class="seriesButton">CURRENTS SERIES</button>
+			<button class="seriesButton"> <span></span> CURRENTS SERIES</button>
 		</div>
 
 		<div class="cards">
@@ -136,8 +136,79 @@ main {
 	color: white;
 	transform: translateY(-50%);
 	border: none;
+	position: relative;
+	transition: all 0.5s;
+	overflow: hidden;
+
+}
+.seriesButton:hover{
+	color: black;
 }
 
+.seriesButton::before{
+	content: "";
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 100%;
+	background: red;
+	transform: translateY(100%);
+	transition: all 0.3s;
+	z-index: -1;
+} 
+
+.seriesButton::after{
+	content: "";
+	position:absolute;
+	top: 0;
+	right: 0;
+	width: 25%;
+	height: 100%;
+	background: red;
+	transform: translateY(-100%);
+	transition: all 0.3s;
+	transition-delay: 0.4s;
+
+	z-index: -1;
+
+} 
+
+.seriesButton:hover::before,
+.seriesButton:hover::after{
+	transform: translateY(0);
+}
+
+.seriesButton span::before{
+	content: "";
+	position:absolute;
+	top: 0;
+	left: 25%;
+	width: 25%;
+	height: 100%;
+	background: red;
+	transform: translateY(-100%);
+	transition: all 0.3s;
+	transition-delay: 0.2s;
+	z-index: -1;
+}
+.seriesButton span::after{
+	content: "";
+	position:absolute;
+	top: 0;
+	right: 25%;
+	width: 25%;
+	height: 100%;
+	background: red;
+	transform: translateY(100%);
+	transition: all 0.3s;
+	transition-delay: 0.3s;
+	z-index: -1;
+}
+.seriesButton:hover span::after,
+.seriesButton:hover span::before{
+	transform: translateY(0);
+}
 
 .cards {
 	width: 70%;
