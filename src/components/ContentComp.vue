@@ -3,6 +3,9 @@
 		<div class="jumboTron">
 			<img class="jumboImg" src="../assets/img/jumbotron.jpg" alt="">
 		</div>
+		<div class="seriesButtonCont">
+			<button class="seriesButton">CURRENTS SERIES</button>
+		</div>
 
 		<div class="cards">
 			<CardComp
@@ -121,6 +124,18 @@ main {
 	width: 100%;
     height: 100%; 
     object-fit: cover;
+}
+.seriesButtonCont{
+	width: 70%;
+}
+.seriesButton{
+	background-color: rgba(2, 130, 249, 1);
+	padding: 20PX 30PX 20PX 30PX;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	transform: translateY(-50%);
+	border: none;
 }
 
 
