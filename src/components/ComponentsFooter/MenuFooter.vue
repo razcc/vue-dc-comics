@@ -93,8 +93,9 @@ ul li:first-child {
 	padding-bottom: 20px;
 }
 img{
+	height: 50%;
 	position: absolute;
 	left: 50%;
-	transform: translatey(-100px);
+	transform: translatey(-50px);
 }
 </style>

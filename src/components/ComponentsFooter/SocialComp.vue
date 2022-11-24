@@ -61,6 +61,12 @@ export default {
 	position: relative;
 	z-index: 1;
 }
+.container a{
+	text-decoration: none;
+	color: white;
+	border: 2px solid rgba(2, 130, 249, 1);
+	padding: 20px;
+}
 .container {
 	width: 70%;
 	margin: auto;

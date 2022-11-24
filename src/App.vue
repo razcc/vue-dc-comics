@@ -14,9 +14,6 @@ import ContentComp from "./components/ContentComp.vue";
 import MainMenu from "./components/MainMenu.vue";
 import FooterComp from "./components/FooterComp.vue";
 
-
-
-
 export default {
 	name: "App",
 	components: {
@@ -29,15 +26,12 @@ export default {
 </script>
 
 <style lang='scss'>
-*{
+* {
 	margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+	padding: 0;
+	box-sizing: border-box;
 }
-#app{
+#app {
 	background-color: rgba(14, 14, 14, 1);
-	height: 100vh;
-	padding-top: 20px;
 }
 </style>

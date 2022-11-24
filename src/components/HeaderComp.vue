@@ -28,7 +28,6 @@ export default {
 	align-items: center;
 	width: 70%;
 	margin: auto;
-	height: 10vh;
 	
 }
 .contHeader {

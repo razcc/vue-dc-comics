@@ -35,18 +35,21 @@ export default {
 	name: "MainMenu",
 };
 </script>
+
 <style scoped lang='scss'>
 #MainMenu{
-    height: 20vh;
     width: 100%;
+    height: 20vh;
     background-color: rgba(2, 130, 249, 1);
     position: relative;
     z-index: 1;
+    display: flex;
+    align-items: center;
 }
 .container{
     width: 60%;
-    margin: auto;
     height: 100%;
+    margin: auto;
 }
 ul{
     display: flex;
