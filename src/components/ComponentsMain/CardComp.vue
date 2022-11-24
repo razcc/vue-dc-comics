@@ -19,7 +19,7 @@ export default {
 
 <style scoped lang='scss'>
 .card {
-	width: calc(100% / 6 - 30px);
+	width: calc(100% / 6);
 	height: 100%;
 	// !Da chiedere perchè height funziona
 	padding: 0 5px 0;

@@ -1,6 +1,8 @@
 <template>
 	<main>
-		<div class="jumboTron"></div>
+		<div class="jumboTron">
+			<img class="jumboImg" src="../assets/img/jumbotron.jpg" alt="">
+		</div>
 
 		<div class="cards">
 			<CardComp
@@ -104,15 +106,29 @@ export default {
 
 <style scoped lang='scss'>
 main {
-	width: 70%;
+	width: 100%;
 	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.jumboTron{
+	width: 100%;
+	height: 30vh;
+
+}
+.jumboImg{
+	width: 100%;
+    height: 100%; 
+    object-fit: cover;
 }
 
+
 .cards {
-	width: 100%;
+	width: 70%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 30px 0 30px 0;
+	margin: 30px 0 0px 0;
 }
 </style>
