@@ -1,10 +1,10 @@
 <template>
 	<main>
 		<div class="jumboTron">
-			<img class="jumboImg" src="../assets/img/jumbotron.jpg" alt="">
+			
 		</div>
 		<div class="seriesButtonCont">
-			<button class="seriesButton"> <span></span> CURRENTS SERIES</button>
+			<button class="seriesButton"><span></span> CURRENTS SERIES</button>
 		</div>
 
 		<div class="cards">
@@ -15,7 +15,7 @@
 			/>
 		</div>
 		<div>
-			<button class="loadButton">LOAD GAME</button>
+			<button class="loadButton"><span></span> LOAD GAME</button>
 		</div>
 	</main>
 </template>
@@ -118,22 +118,19 @@ main {
 	flex-direction: column;
 	align-items: center;
 }
-.jumboTron{
+.jumboTron {
 	width: 100%;
-	height: 30vh;
-
+	height: 300px;
+	background-image: url(../assets/img/jumbotron.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.jumboImg{
-	width: 100%;
-    height: 100%; 
-    object-fit: cover;
-}
-.seriesButtonCont{
+.seriesButtonCont {
 	width: 70%;
 }
-.seriesButton{
+.seriesButton {
 	background-color: rgba(2, 130, 249, 1);
-	padding: 20PX 30PX 20PX 30PX;
+	padding: 20px 30px 20px 30px;
 	font-size: 25px;
 	font-weight: bold;
 	color: white;
@@ -142,15 +139,14 @@ main {
 	position: relative;
 	transition: all 0.5s;
 	overflow: hidden;
-
 }
-.seriesButton:hover{
+.seriesButton:hover {
 	color: black;
 }
 
-.seriesButton::before{
+.seriesButton::before {
 	content: "";
-	position:absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 25%;
@@ -159,11 +155,11 @@ main {
 	transform: translateY(100%);
 	transition: all 0.3s;
 	z-index: -1;
-} 
+}
 
-.seriesButton::after{
+.seriesButton::after {
 	content: "";
-	position:absolute;
+	position: absolute;
 	top: 0;
 	right: 0;
 	width: 25%;
@@ -174,17 +170,16 @@ main {
 	transition-delay: 0.4s;
 
 	z-index: -1;
-
-} 
+}
 
 .seriesButton:hover::before,
-.seriesButton:hover::after{
+.seriesButton:hover::after {
 	transform: translateY(0);
 }
 
-.seriesButton span::before{
+.seriesButton span::before {
 	content: "";
-	position:absolute;
+	position: absolute;
 	top: 0;
 	left: 25%;
 	width: 25%;
@@ -195,9 +190,9 @@ main {
 	transition-delay: 0.2s;
 	z-index: -1;
 }
-.seriesButton span::after{
+.seriesButton span::after {
 	content: "";
-	position:absolute;
+	position: absolute;
 	top: 0;
 	right: 25%;
 	width: 25%;
@@ -209,7 +204,7 @@ main {
 	z-index: -1;
 }
 .seriesButton:hover span::after,
-.seriesButton:hover span::before{
+.seriesButton:hover span::before {
 	transform: translateY(0);
 }
 
@@ -220,16 +215,16 @@ main {
 	flex-wrap: wrap;
 	margin: 30px 0 0px 0;
 }
-.loadButton{
+.loadButton {
 	background-color: rgba(2, 130, 249, 1);
-	padding: 20PX 30PX 20PX 30PX;
+	padding: 20px 30px 20px 30px;
+	margin-bottom: 20px;
 	font-size: 25px;
 	font-weight: bold;
 	color: white;
-	transform: translateY(-50%);
 	border: none;
 	position: relative;
 	transition: all 0.5s;
-	overflow: hidden;
 }
+
 </style>
